@@ -21,6 +21,7 @@ To create a virtual environment and install dependencies with Anaconda or Minico
 conda create -y -n cancer-data-aggregator python=3.9
 conda activate cancer-data-aggregator
 pip install -r requirements.txt
+ipython kernel install --user --name=cancer-data-aggregator
 ```
 
 If you are using base Python, you can create a virtual environment and install dependencies by running:
@@ -28,4 +29,5 @@ If you are using base Python, you can create a virtual environment and install d
 virtualenv cancer-data-aggregator
 source activate cancer-data-aggregator/bin/activate
 pip install -r requirements.txt
+ipython kernel install --user --name=cancer-data-aggregator
 ```
